@@ -149,23 +149,23 @@ def send_message(to_user, access_token, region_name, weather, temp, wind_dir, no
             },
             "region": {
                 "value": region_name,
-                # "color": get_color()
+                "color": get_color()
             },
             "weather": {
                 "value": weather,
-                # "color": get_color()
+                "color": get_color()
             },
             "temp": {
                 "value": temp,
-                # "color": get_color()
+                "color": get_color()
             },
             "feel_temp": {
                 "value": feel_temp,
-                # "color": get_color()
+                "color": get_color()
             },
             "wind_dir": {
                 "value": wind_dir,
-                # "color": get_color()
+                "color": get_color()
             },
             "love_day": {
                 "value": love_days,
