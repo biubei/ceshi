@@ -3,7 +3,7 @@ from time import localtime
 from requests import get, post
 from datetime import datetime, date
 from zhdate import ZhDate
-import sys
+import sys  
 import os
  
  
@@ -160,7 +160,7 @@ def send_message(to_user, access_token, region_name, weather, temp, wind_dir, no
                 # "color": get_color()
             },
             "feel_temp": {
-                "value": temp,
+                "value": feel_temp,
                 # "color": get_color()
             },
             "wind_dir": {
